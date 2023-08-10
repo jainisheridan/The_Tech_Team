@@ -136,18 +136,6 @@ public class WarGame {
             System.out.println("The game is a tie!");
         }
     }
-
-
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter Player 1 name: ");
-        String player1Name = scanner.nextLine();
-        int maxRounds = 26; // Set the maximum number of rounds based on the number of cards each player has
-        WarGame game = new WarGame(player1Name);
-        game.playGame();
-    }
-
 }
 
 class CardUtils {
